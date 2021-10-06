@@ -1,23 +1,23 @@
 input.onButtonPressed(Button.A, function () {
-    _1 = "" + _1 + "A"
+    input2 = "" + input2 + "A"
 })
 input.onButtonPressed(Button.AB, function () {
-    if (password == _1) {
+    if (password == input2) {
         basic.showIcon(IconNames.Yes)
         basic.pause(500)
-        _1 = ""
+        input2 = ""
         basic.clearScreen()
     } else {
         basic.showIcon(IconNames.No)
         basic.pause(500)
-        _1 = ""
+        input2 = ""
         basic.clearScreen()
     }
 })
 input.onButtonPressed(Button.B, function () {
-    _1 = "" + _1 + "B"
+    input2 = "" + input2 + "B"
 })
-let _1 = ""
+let input2 = ""
 let password = ""
 password = "ABBAB"
-_1 = ""
+input2 = ""
