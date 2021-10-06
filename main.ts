@@ -17,7 +17,7 @@ input.onButtonPressed(Button.AB, function () {
 input.onButtonPressed(Button.B, function () {
     _1 = "" + _1 + "B"
 })
-let password = ""
 let _1 = ""
+let password = ""
 password = "ABBAB"
 _1 = ""
