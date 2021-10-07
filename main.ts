@@ -12,7 +12,7 @@ input.onButtonPressed(Button.AB, function () {
     } else {
         pins.servoWritePin(AnalogPin.P0, 0)
         basic.showIcon(IconNames.No)
-        basic.pause(500)
+        basic.pause(5000)
         input2 = ""
         basic.clearScreen()
     }
