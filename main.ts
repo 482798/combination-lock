@@ -6,6 +6,7 @@ input.onButtonPressed(Button.AB, function () {
         basic.showIcon(IconNames.Yes)
         pins.servoWritePin(AnalogPin.P0, 180)
         basic.pause(5000)
+        basic.pause(5000)
         pins.servoWritePin(AnalogPin.P0, 0)
         input2 = ""
         basic.clearScreen()
