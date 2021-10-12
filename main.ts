@@ -1,26 +1,26 @@
 input.onButtonPressed(Button.A, function () {
-    input2 = "" + input2 + "A"
+    user_input = "" + user_input + "A"
 })
 input.onButtonPressed(Button.AB, function () {
-    if (password == input2) {
+    if (password == user_input) {
         basic.showIcon(IconNames.Yes)
         pins.servoWritePin(AnalogPin.P0, 180)
         basic.pause(5000)
         pins.servoWritePin(AnalogPin.P0, 0)
-        input2 = ""
+        user_input = ""
         basic.clearScreen()
     } else {
         pins.servoWritePin(AnalogPin.P0, 0)
         basic.showIcon(IconNames.No)
         basic.pause(500)
-        input2 = ""
+        user_input = ""
         basic.clearScreen()
     }
 })
 input.onButtonPressed(Button.B, function () {
-    input2 = "" + input2 + "B"
+    user_input = "" + user_input + "B"
 })
-let input2 = ""
+let user_input = ""
 let password = ""
 password = "ABBAB"
-input2 = ""
+user_input = ""
