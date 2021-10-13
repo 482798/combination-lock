@@ -1,7 +1,9 @@
-input.onButtonPressed(Button.A, function () {
+input.onButtonPressed(Button.A, function on_button_pressed_a() {
+    
     User_Input = "" + User_Input + "A"
 })
-input.onButtonPressed(Button.AB, function () {
+input.onButtonPressed(Button.AB, function on_button_pressed_ab() {
+    
     if (Password == User_Input) {
         basic.showIcon(IconNames.Yes)
         pins.servoWritePin(AnalogPin.P0, 180)
@@ -16,8 +18,10 @@ input.onButtonPressed(Button.AB, function () {
         User_Input = ""
         basic.clearScreen()
     }
+    
 })
-input.onButtonPressed(Button.B, function () {
+input.onButtonPressed(Button.B, function on_button_pressed_b() {
+    
     User_Input = "" + User_Input + "B"
 })
 let User_Input = ""
