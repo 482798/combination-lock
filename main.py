@@ -47,4 +47,8 @@ def on_forever():
     basic.pause(5000)
     basic.pause(5000)
     basic.pause(5000)
+    basic.pause(5000)
+    basic.pause(5000)
+    basic.pause(5000)
+    basic.pause(5000)
 basic.forever(on_forever)
