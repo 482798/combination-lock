@@ -14,7 +14,7 @@ input.onButtonPressed(Button.AB, function on_button_pressed_ab() {
     } else {
         pins.servoWritePin(AnalogPin.P0, 0)
         basic.showIcon(IconNames.No)
-        basic.pause(500)
+        basic.pause(100)
         User_Input = ""
         basic.clearScreen()
     }

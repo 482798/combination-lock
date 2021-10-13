@@ -15,7 +15,7 @@ def on_button_pressed_ab():
     else:
         pins.servo_write_pin(AnalogPin.P0, 0)
         basic.show_icon(IconNames.NO)
-        basic.pause(500)
+        basic.pause(100)
         User_Input = ""
         basic.clear_screen()
 input.on_button_pressed(Button.AB, on_button_pressed_ab)
