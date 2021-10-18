@@ -34,9 +34,9 @@ input.onButtonPressed(Button.B, function on_button_pressed_b() {
     
     User_Input = "" + User_Input + "B"
 })
+let _1 = 0
 let User_Input = ""
 let Password = ""
-let _1 = 0
 Password = "ABBAB"
 User_Input = ""
 _1 = 0

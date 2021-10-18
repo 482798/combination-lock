@@ -33,9 +33,9 @@ def on_button_pressed_b():
     User_Input = "" + User_Input + "B"
 input.on_button_pressed(Button.B, on_button_pressed_b)
 
+_1 = 0
 User_Input = ""
 Password = ""
-_1 = 0
 Password = "ABBAB"
 User_Input = ""
 _1 = 0
