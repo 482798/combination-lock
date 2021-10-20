@@ -6,7 +6,7 @@ input.on_button_pressed(Button.A, on_button_pressed_a)
 def on_button_pressed_ab():
     global User_Input, _1
     if Password == User_Input:
-        if _1 > 4:
+        if _1 > 2:
             pins.servo_write_pin(AnalogPin.P0, 0)
             basic.show_icon(IconNames.NO)
             basic.pause(300)

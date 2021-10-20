@@ -5,7 +5,7 @@ input.onButtonPressed(Button.A, function on_button_pressed_a() {
 input.onButtonPressed(Button.AB, function on_button_pressed_ab() {
     
     if (Password == User_Input) {
-        if (_1 > 4) {
+        if (_1 > 2) {
             pins.servoWritePin(AnalogPin.P0, 0)
             basic.showIcon(IconNames.No)
             basic.pause(300)
